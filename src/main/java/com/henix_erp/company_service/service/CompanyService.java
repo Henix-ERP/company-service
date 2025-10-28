@@ -11,6 +11,4 @@ public interface CompanyService {
     public Company get(int id);
 
     public List<Company> getAll();
-
-    public void delete(int id);
 }

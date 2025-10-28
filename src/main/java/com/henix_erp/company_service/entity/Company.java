@@ -20,5 +20,5 @@ public class Company {
     private String name;
 
     @Column(name = "domain_name")
-    private String domain;
+    private String domainName;
 }

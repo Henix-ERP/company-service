@@ -32,9 +32,4 @@ public class CompanyServiceImpl implements CompanyService {
     public List<Company> getAll() {
         return companyRepository.findAll();
     }
-
-    @Override
-    public void delete(int id) {
-
-    }
 }
